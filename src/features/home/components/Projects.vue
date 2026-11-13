@@ -46,6 +46,9 @@ onMounted(loadPreviews);
         <PreviewCard v-if="isFeatureEnabled('startProject')" />
       </div>
     </div>
+    <div class="grid">
+      <p class="projects-more">{{ t("projects-more") }}</p>
+    </div>
   </div>
 </template>
 
@@ -112,6 +115,18 @@ onMounted(loadPreviews);
         left: -16px;
         transform: translate(0, -20%) rotate(-6deg);
       }
+    }
+  }
+
+  &-more {
+    grid-column: 1 / span 12;
+    color: var(--color-text-300);
+    font-weight: 500;
+    line-height: var(--line-height-copy);
+    text-align: center;
+
+    @include mixins.mq("lg") {
+      grid-column: 4 / span 6;
     }
   }
 

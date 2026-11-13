@@ -1,21 +1,20 @@
 {
   "about": "About",
-  "about-intro": "Web developer specializing in interactive 3D web experiences and real-time systems.<br />Builds scalable, high-performance applications that combine engaging visuals with seamless functionality using WebGL, TypeScript, and Node.js.",
-  "about-tagline": "Builds interactive 3D experiences and real-time systems that are fast, responsive, and fun to use.",
+  "about-intro": "Technology teacher leading educational robotics projects with Arduino. I walk with my students from the idea to the working prototype: I challenge them to research, organize them in teams with roles, guide them through assembly and programming, and encourage them to present their results to the community.<br />More than 20 years of technology experience put at the service of the classroom.",
+  "about-tagline": "I lead my students through Arduino robotics projects, guiding them to design, program and present prototypes that solve real problems around them.",
   "back-to-home": "Back to home",
   "original-concept-by": "Originally created by",
   "contact": "Contact",
   "description": "Description",
   "disable-sounds": "Disable sounds",
   "enable-sounds": "Enable sounds",
-  "germany": "Germany",
   "get-in-touch": "Get in touch",
   "go-to": "Go to",
-  "job-title": "Web Developer",
+  "job-title": "Technology Teacher",
   "lets-work-together": "Let's work<br/>together!",
   "legal": "Legal Notice",
   "live-view": "Live View",
-  "location": "Location",
+  "location": "Bogotá, Colombia",
   "music-produced-by": "Music produced by",
   "next-project": "Next Project",
   "privacy": "Privacy",
@@ -26,5 +25,6 @@
   "source-code": "Source Code",
   "switch-to-project": "Switch to project {project}",
   "version": "Version",
-  "view-project": "View project"
+  "view-project": "View project",
+  "projects-more": "These are four of the projects I have led with my students. There are others — at different levels and on different topics — that I am happy to share if you get in touch."
 }

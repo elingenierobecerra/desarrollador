@@ -107,23 +107,27 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
 };
 
 const SERVICES_EN = [
-  { name: "Three.js & WebGL" },
-  { name: "Node.js & WebSockets" },
-  { name: "React & Vue" },
-  { name: "Kubernetes & Redis" },
-  { name: "Real-time Multiplayer" },
+  { name: "Arduino programming (C/C++)" },
+  { name: "Electronics: sensors & actuators" },
+  { name: "Breadboard prototyping & models" },
+  { name: "CAD design & 3D printing" },
+  { name: "Project-based learning (STEAM)" },
+  { name: "Computational thinking" },
+  { name: "Leading student teams" },
 ] as const satisfies { name: string }[];
 
-const SERVICES_DE = [
-  { name: "Three.js & WebGL" },
-  { name: "Node.js & WebSockets" },
-  { name: "React & Vue" },
-  { name: "Kubernetes & Redis" },
-  { name: "Echtzeit-Mehrspieler" },
+const SERVICES_ES = [
+  { name: "Programación en Arduino (C/C++)" },
+  { name: "Electrónica: sensores y actuadores" },
+  { name: "Prototipado en protoboard y maquetas" },
+  { name: "Diseño CAD e impresión 3D" },
+  { name: "Aprendizaje basado en proyectos (STEAM)" },
+  { name: "Pensamiento computacional" },
+  { name: "Liderazgo de equipos estudiantiles" },
 ] as const satisfies { name: string }[];
 
 const services = computed(() => {
-  return locale.value === "en" ? SERVICES_EN : SERVICES_DE;
+  return locale.value === "en" ? SERVICES_EN : SERVICES_ES;
 });
 </script>
 

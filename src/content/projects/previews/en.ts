@@ -1,40 +1,33 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
-import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
+import thumbnailSemaforo from "../../../assets/thumbnails/semaforo.webp";
+import thumbnailCaneca from "../../../assets/thumbnails/caneca.webp";
+import thumbnailAlarma from "../../../assets/thumbnails/alarma.webp";
+import thumbnailSolar from "../../../assets/thumbnails/solar.webp";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "CubeWar",
-    slug: "cubewar",
-    thumbnail: thumbnailCubeWar,
-    description: "Multiplayer strategy game",
+    title: "Smart Traffic Light",
+    slug: "semaforo",
+    thumbnail: thumbnailSemaforo,
+    description: "Automated pedestrian crossing · Basic level",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
-    thumbnail: thumbnailQuibbo,
-    description: "Multiplayer gaming platform",
+    title: "Touchless Trash Bin",
+    slug: "caneca",
+    thumbnail: thumbnailCaneca,
+    description: "Touchless ultrasonic lid · Basic level",
   },
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D adventure game",
+    title: "Home Automation Alarm",
+    slug: "alarma",
+    thumbnail: thumbnailAlarma,
+    description: "Motion and light security · Basic level",
   },
   {
-    title: "WebGL Particles",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamic 3D particles",
-  },
-  {
-    title: "Pokédex",
-    slug: "pokedex",
-    thumbnail: thumbnailPokedex,
-    description: "Open-source learning project",
+    title: "Dual-Axis Solar Tracker",
+    slug: "solar",
+    thumbnail: thumbnailSolar,
+    description: "Energy efficiency · Intermediate level",
   },
 ] as const satisfies ProjectPreview[];

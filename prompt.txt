@@ -1,0 +1,40 @@
+1. Semáforo Inteligente con Paso Peatonal Automatizado (Nivel Básico)
+Objetivo: Construir una maqueta funcional de un cruce vial que regule el tráfico vehicular y active un paso peatonal seguro al detectar la presencia de personas o mediante un botón de solicitud, incluyendo alertas sonoras para accesibilidad.
+
+Competencias tecnológicas desarrolladas: Lógica secuencial y condicional, control de salidas digitales (LEDs y zumbadores), lectura de entradas digitales/analógicas y sincronización de tiempos sin bloquear el procesador.
+
+Componentes base: Arduino Uno, LEDs (rojo, amarillo, verde para autos; rojo y verde para peatones), resistencias de 220 Ω, pulsador o sensor ultrasónico (HC-SR04), zumbador piezoeléctrico (buzzer) y materiales reciclados para la maqueta.
+
+Impacto educativo: Permite a los estudiantes dominar la estructura básica de un programa embebido (variables, estados y temporizadores) aplicándolo a la seguridad vial y el urbanismo inteligente.
+D:\Archivos\Documentos\PERSONAL\HOJA DE VIDA\DOCENTE\portfolio-2025\src\assets\thumbnails\1.semaforo.jfif
+
+
+2. Caneca de Basura Automática sin Contacto (Nivel Básico)
+Objetivo: Desarrollar un contenedor de residuos cuya tapa se abra automáticamente al detectar la proximidad de una mano o un objeto y se cierre tras unos segundos, fomentando la higiene en espacios escolares.
+
+Competencias tecnológicas desarrolladas: Medición de distancias mediante ultrasonido, control básico de un servomotor (ángulos de apertura y cierre) y ensamblaje mecánico sencillo.
+
+Componentes base: Placa Arduino Uno o Nano, sensor ultrasónico (HC-SR04), 1 micro servomotor (SG90), cables jumper, batería de 9V (o portapilas) y una papelera plástica o caja de cartón estructurada.
+
+Impacto educativo: Es un proyecto rápido de construir con resultados inmediatos; refuerza cómo un sensor traduce una variable física (distancia) en una acción mecánica concreta.
+D:\Archivos\Documentos\PERSONAL\HOJA DE VIDA\DOCENTE\portfolio-2025\src\assets\thumbnails\2.caneca.jfif
+
+3. Sistema de Alarma Domótica por Movimiento y Luz (Nivel Básico)
+Objetivo: Diseñar un prototipo de seguridad para el hogar o el aula que detecte intrusos mediante movimiento o cambios bruscos de iluminación, activando una alerta visual y sonora.
+
+Competencias tecnológicas desarrolladas: Lectura de sensores digitales (PIR) y analógicos (fotorresistencia LDR), calibración de umbrales de sensibilidad y uso de operadores lógicos (AND / OR).
+
+Componentes base: Microcontrolador Arduino Uno, sensor de movimiento infrarrojo pasivo (PIR HC-SR501), fotorresistencia (LDR), resistencia de 10 kΩ, LED de alto brillo, buzzer activo y protoboard.
+
+Impacto educativo: Introduce a los jóvenes en los fundamentos de la domótica y la seguridad electrónica, enseñándoles a filtrar lecturas de sensores para evitar falsas alarmas.
+D:\Archivos\Documentos\PERSONAL\HOJA DE VIDA\DOCENTE\portfolio-2025\src\assets\thumbnails\3.alarma.jfif
+
+4. Seguidor Solar de Dos Ejes para Eficiencia Energética (Nivel Intermedio)
+Objetivo: Construir una estructura móvil que oriente automáticamente un panel solar hacia la fuente de mayor intensidad lumínica a lo largo del día, maximizando la captación de energía limpia.
+
+Competencias tecnológicas desarrolladas: Comparación diferencial de señales analógicas, control coordinado de dos ejes mecánicos (azimut y elevación), diseño estructural (CAD/corte láser o impresión 3D) y gestión energética.
+
+Componentes base: Arduino Uno o Nano, 4 fotorresistencias (LDR) divididas por una cruceta opaca, 4 resistencias de 10 kΩ, 2 servomotores (MG90S o SG90), mini panel solar (5V-6V) y soporte articulado pan-tilt.
+
+Impacto educativo: Eleva el reto técnico al exigir que el código compare múltiples sensores simultáneamente para calcular movimientos proporcionales y suaves, conectando la robótica con las energías renovables.
+D:\Archivos\Documentos\PERSONAL\HOJA DE VIDA\DOCENTE\portfolio-2025\src\assets\thumbnails\4.solar.jfif

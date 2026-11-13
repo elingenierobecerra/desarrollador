@@ -1,98 +1,101 @@
-.project-cubewar {
-  --color-text-400: rgb(255, 255, 255);
-  --color-text-300: rgb(195, 204, 219);
+.project-cimarron {
+  --color-text-400: #211a12;
+  --color-text-300: #6b5f4f;
 
-  --color-accent-400: #008dff;
+  --color-accent-400: #b45309;
   --color-accent-text-400: white;
 
-  --color-hover: #060f1f;
-
-  --color-grayscale-500: #2b4169;
-  --color-grayscale-400: #2b4169;
-
-  --color-background-400: #364e7c;
-  --color-background-300: #1c2f4f;
-}
-
-.project-quibbo {
-  --color-text-400: rgb(20, 29, 37);
-  --color-text-300: rgb(72, 85, 97);
-
-  --color-accent-400: rgb(31, 129, 249);
-  --color-accent-text-400: white;
-
-  --color-hover: rgb(20, 29, 37);
-
-  --color-grayscale-500: rgb(226, 233, 238);
-  --color-grayscale-400: rgb(226, 233, 238);
-
-  --color-background-400: rgb(243, 247, 250);
-  --color-background-300: white;
-}
-
-.project-particles {
-  --color-text-400: white;
-  --color-text-300: rgb(149, 155, 150);
-
-  --color-accent-400: #22904b;
-  --color-accent-text-400: white;
-
-  --color-hover: #000000;
-
-  --color-grayscale-500: #2c2f2c;
-  --color-grayscale-400: #2c2f2c;
-
-  --color-background-400: #191c19;
-  --color-background-300: #141614;
-}
-
-.project-pokedex {
-  --color-text-400: #0c1b3a;
-  --color-text-300: rgb(105, 111, 116);
-
-  --color-hover: #011030;
+  --color-hover: #1c130a;
   --color-hover-text: #ffffff;
 
-  --color-accent-400: #ff5350;
-  --color-accent-text-400: white;
+  --color-grayscale-500: #e7e0d5;
+  --color-grayscale-400: #e7e0d5;
 
-  --color-grayscale-500: #d9dde7;
-  --color-grayscale-400: #d9dde7;
-
-  --color-background-400: #e9edf6;
-  --color-background-300: #f9fbfe;
+  --color-background-400: #f1ece3;
+  --color-background-300: #faf7f1;
 }
 
-.project-sharkie {
-  --color-text-400: #ffffff;
-  --color-text-300: #c6d2f2;
+.project-edrux {
+  --color-text-400: #f3f6fa;
+  --color-text-300: #a9b6c6;
 
-  --color-hover: #00173f;
+  --color-accent-400: #2dd4bf;
+  --color-accent-text-400: #04211d;
+
+  --color-hover: #0b1a24;
   --color-hover-text: #ffffff;
 
-  --color-accent-400: #176cfe;
-  --color-accent-text-400: white;
+  --color-grayscale-500: #1e2f3d;
+  --color-grayscale-400: #1e2f3d;
 
-  --color-grayscale-500: #364f94;
-  --color-grayscale-400: #263e82;
-
-  --color-background-400: #263e82;
-  --color-background-300: rgb(22, 41, 94);
+  --color-background-400: #12222e;
+  --color-background-300: #0a1620;
 }
 
-.project-streakon {
-  --color-text-400: #ffffff;
-  --color-text-300: rgb(197, 197, 197);
+.project-semaforo {
+  --color-text-400: #f4f5f2;
+  --color-text-300: #aab0a6;
 
-  --color-hover: rgb(41, 41, 41);
+  --color-accent-400: #34d399;
+  --color-accent-text-400: #052e1f;
+
+  --color-hover: #0c120e;
   --color-hover-text: #ffffff;
 
-  --color-accent-400: #fec600;
-  --color-accent-text-400: rgb(44, 44, 44);
+  --color-grayscale-500: #2a332c;
+  --color-grayscale-400: #2a332c;
 
-  --color-grayscale-500: rgb(25, 25, 25);
-  --color-grayscale-400: rgb(33, 33, 33);
+  --color-background-400: #1b221d;
+  --color-background-300: #111612;
+}
 
-  --color-background-400: #141414;
-  --color-background-300: #090909;
+.project-caneca {
+  --color-text-400: #12261f;
+  --color-text-300: #4f665c;
+
+  --color-accent-400: #0f766e;
+  --color-accent-text-400: white;
+
+  --color-hover: #0a1c17;
+  --color-hover-text: #ffffff;
+
+  --color-grayscale-500: #d5e5dd;
+  --color-grayscale-400: #d5e5dd;
+
+  --color-background-400: #e6f0ea;
+  --color-background-300: #f5faf7;
+}
+
+.project-alarma {
+  --color-text-400: #f3f4fa;
+  --color-text-300: #a8aec6;
+
+  --color-accent-400: #f87171;
+  --color-accent-text-400: #2b0606;
+
+  --color-hover: #0b0d1c;
+  --color-hover-text: #ffffff;
+
+  --color-grayscale-500: #252a45;
+  --color-grayscale-400: #252a45;
+
+  --color-background-400: #181c33;
+  --color-background-300: #0e1124;
+}
+
+.project-solar {
+  --color-text-400: #2a1d08;
+  --color-text-300: #75603c;
+
+  --color-accent-400: #d97706;
+  --color-accent-text-400: white;
+
+  --color-hover: #1f1505;
+  --color-hover-text: #ffffff;
+
+  --color-grayscale-500: #f0e2bf;
+  --color-grayscale-400: #f0e2bf;
+
+  --color-background-400: #f7edd3;
+  --color-background-300: #fdf8ea;
 }
