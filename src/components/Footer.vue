@@ -8,6 +8,7 @@ import { t } from "../i18n/utils/translate";
 import { locale } from "../i18n/store";
 import ButtonRound from "./ButtonRound.vue";
 import { lenis } from "../composables/useScroll";
+import { withBase } from "../utils/base";
 import ArrowRightLong from "./icons/ArrowRightLong.vue";
 
 interface Props {
@@ -45,7 +46,7 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
           <div class="footer-top-links-legal">
             <Clickable renderAs="div">
               <Link
-                :href="locale === 'es' ? '/es/privacy' : '/privacy'"
+                :href="withBase(locale === 'es' ? '/es/privacy' : '/privacy')"
                 class="footer-link"
                 :external="true"
                 data-cursor="circle-white"
@@ -56,7 +57,7 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
             </Clickable>
             <Clickable renderAs="div">
               <Link
-                :href="locale === 'es' ? '/es/legal' : '/legal'"
+                :href="withBase(locale === 'es' ? '/es/legal' : '/legal')"
                 class="footer-link children-unclickable"
                 :external="true"
                 data-cursor="circle-white"
