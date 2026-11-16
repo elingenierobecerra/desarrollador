@@ -1,33 +1,26 @@
-import thumbnailSemaforo from "../../../assets/thumbnails/semaforo.webp";
-import thumbnailCaneca from "../../../assets/thumbnails/caneca.webp";
-import thumbnailAlarma from "../../../assets/thumbnails/alarma.webp";
-import thumbnailSolar from "../../../assets/thumbnails/solar.webp";
+import thumbnailCimarron from "../../../assets/thumbnails/cimarron.webp";
+import thumbnailCreser from "../../../assets/thumbnails/creser.webp";
+import thumbnailIedcc from "../../../assets/thumbnails/iedcc.webp";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "Smart Traffic Light",
-    slug: "semaforo",
-    thumbnail: thumbnailSemaforo,
-    description: "Automated pedestrian crossing · Basic level",
+    title: "Asociación Cimarrón",
+    slug: "cimarron",
+    thumbnail: thumbnailCimarron,
+    description: "Wompi payments, APIs and storage · asocimarron.org",
   },
   {
-    title: "Touchless Trash Bin",
-    slug: "caneca",
-    thumbnail: thumbnailCaneca,
-    description: "Touchless ultrasonic lid · Basic level",
+    title: "Fundación CRESER",
+    slug: "creser",
+    thumbnail: thumbnailCreser,
+    description: "Corporate digital structure · creserfundacion.org",
   },
   {
-    title: "Home Automation Alarm",
-    slug: "alarma",
-    thumbnail: thumbnailAlarma,
-    description: "Motion and light security · Basic level",
-  },
-  {
-    title: "Dual-Axis Solar Tracker",
-    slug: "solar",
-    thumbnail: thumbnailSolar,
-    description: "Energy efficiency · Intermediate level",
+    title: "IEDCC",
+    slug: "iedcc",
+    thumbnail: thumbnailIedcc,
+    description: "Corporate digital structure · iedcc.org",
   },
 ] as const satisfies ProjectPreview[];

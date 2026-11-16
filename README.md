@@ -1,6 +1,6 @@
 # Portfolio (2025)
 
-Personal portfolio site of **Luis Becerra** (Docente de Tecnología, Bogotá, Colombia): project case studies, lightweight 3D and shader demos, bilingual copy (English and Spanish).
+Personal portfolio site of **Luis Becerra** (Líder de Desarrollo de Software, Bogotá, Colombia): project case studies, lightweight 3D and shader demos, bilingual copy (English and Spanish).
 
 Built with **Vue 3**, **TypeScript**, and **Vite**. Motion via **GSAP** and **Lenis**, 3D via **three.js**, audio via **Howler**. GLSL is compiled through **vite-plugin-glsl**.
 

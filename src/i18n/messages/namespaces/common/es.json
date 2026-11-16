@@ -1,7 +1,7 @@
 {
   "about": "Sobre mí",
-  "about-intro": "Docente de Tecnología que lidera proyectos de robótica educativa con Arduino. Acompaño a mis estudiantes desde la idea hasta el prototipo funcionando: los reto a investigar, los organizo en equipos con roles, los oriento en el montaje y la programación, y los impulso a sustentar sus resultados ante la comunidad.<br />Más de 20 años de experiencia en tecnología puestos al servicio del aula.",
-  "about-tagline": "Lidero a mis estudiantes en proyectos de robótica con Arduino: los guío para que diseñen, programen y sustenten prototipos que resuelven problemas reales de su entorno.",
+  "about-intro": "Ingeniero de Sistemas con estudios de maestría en Gerencia de TIC. Defino lineamientos técnicos y arquitecturas, coordino equipos de desarrollo con Scrum y Kanban, implemento procesos de CI/CD y gestiono los riesgos de cada proyecto, con la seguridad integrada desde el inicio.<br />Más de 20 años de experiencia en tecnología, construyendo microservicios, integraciones y plataformas para organizaciones.",
+  "about-tagline": "Lidero equipos de desarrollo de software: defino la arquitectura y los estándares, facilito el trabajo ágil y automatizo la entrega para que las soluciones lleguen a producción con calidad y seguridad.",
   "back-to-home": "Volver al inicio",
   "original-concept-by": "Concepto original de",
   "contact": "Contacto",
@@ -10,7 +10,7 @@
   "enable-sounds": "Activar sonidos",
   "get-in-touch": "Escríbeme",
   "go-to": "Ir a",
-  "job-title": "Docente de Tecnología",
+  "job-title": "Líder de Desarrollo de Software",
   "lets-work-together": "Trabajemos<br/>juntos!",
   "legal": "Aviso legal",
   "live-view": "Ver en vivo",
@@ -26,5 +26,5 @@
   "switch-to-project": "Cambiar al proyecto {project}",
   "version": "Versión",
   "view-project": "Ver proyecto",
-  "projects-more": "Estos son cuatro de los proyectos que he liderado con mis estudiantes. Hay otros más —de distintos niveles y temáticas— que con gusto comparto si me escribes."
+  "projects-more": "Estos son tres proyectos de referencia en los que creé toda la estructura corporativa digital de la organización. Hay otros más —microservicios, integraciones y plataformas internas— que con gusto comparto si me escribes."
 }

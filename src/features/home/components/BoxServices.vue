@@ -107,23 +107,23 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
 };
 
 const SERVICES_EN = [
-  { name: "Arduino programming (C/C++)" },
-  { name: "Electronics: sensors & actuators" },
-  { name: "Breadboard prototyping & models" },
-  { name: "CAD design & 3D printing" },
-  { name: "Project-based learning (STEAM)" },
-  { name: "Computational thinking" },
-  { name: "Leading student teams" },
+  { name: "Software architecture & microservices" },
+  { name: "Technical guidelines & standards" },
+  { name: "Development team leadership" },
+  { name: "Scrum & Kanban (Scrum Master)" },
+  { name: "CI/CD & DevSecOps" },
+  { name: "Development risk management" },
+  { name: "Node.js, Java, PHP · SQL Server, MySQL" },
 ] as const satisfies { name: string }[];
 
 const SERVICES_ES = [
-  { name: "Programación en Arduino (C/C++)" },
-  { name: "Electrónica: sensores y actuadores" },
-  { name: "Prototipado en protoboard y maquetas" },
-  { name: "Diseño CAD e impresión 3D" },
-  { name: "Aprendizaje basado en proyectos (STEAM)" },
-  { name: "Pensamiento computacional" },
-  { name: "Liderazgo de equipos estudiantiles" },
+  { name: "Arquitectura de software y microservicios" },
+  { name: "Lineamientos y estándares técnicos" },
+  { name: "Liderazgo de equipos de desarrollo" },
+  { name: "Scrum y Kanban (Scrum Master)" },
+  { name: "CI/CD y DevSecOps" },
+  { name: "Gestión de riesgos de desarrollo" },
+  { name: "Node.js, Java, PHP · SQL Server, MySQL" },
 ] as const satisfies { name: string }[];
 
 const services = computed(() => {

@@ -1,7 +1,7 @@
 {
   "about": "About",
-  "about-intro": "Technology teacher leading educational robotics projects with Arduino. I walk with my students from the idea to the working prototype: I challenge them to research, organize them in teams with roles, guide them through assembly and programming, and encourage them to present their results to the community.<br />More than 20 years of technology experience put at the service of the classroom.",
-  "about-tagline": "I lead my students through Arduino robotics projects, guiding them to design, program and present prototypes that solve real problems around them.",
+  "about-intro": "Systems Engineer with master's studies in ICT Management. I define technical guidelines and architectures, coordinate development teams with Scrum and Kanban, implement CI/CD processes and manage the risks of each project, with security built in from the start.<br />More than 20 years of technology experience, building microservices, integrations and platforms for organizations.",
+  "about-tagline": "I lead software development teams: I define the architecture and standards, facilitate agile work and automate delivery so solutions reach production with quality and security.",
   "back-to-home": "Back to home",
   "original-concept-by": "Originally created by",
   "contact": "Contact",
@@ -10,7 +10,7 @@
   "enable-sounds": "Enable sounds",
   "get-in-touch": "Get in touch",
   "go-to": "Go to",
-  "job-title": "Technology Teacher",
+  "job-title": "Software Development Lead",
   "lets-work-together": "Let's work<br/>together!",
   "legal": "Legal Notice",
   "live-view": "Live View",
@@ -26,5 +26,5 @@
   "switch-to-project": "Switch to project {project}",
   "version": "Version",
   "view-project": "View project",
-  "projects-more": "These are four of the projects I have led with my students. There are others — at different levels and on different topics — that I am happy to share if you get in touch."
+  "projects-more": "These are three reference projects in which I created the organization's entire corporate digital structure. There are others — microservices, integrations and internal platforms — that I am happy to share if you get in touch."
 }
